@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Hamdy · Back-End Developer</title>
+  <!-- Font Awesome 6 (free) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- glowing background elements -->
+  <div class="glow-orb orb1"></div>
+  <div class="glow-orb orb2"></div>
+  <div class="glow-orb orb3"></div>
+
+  <!-- vertical floating sidebar (unchanged) -->
+  <nav class="side-nav">
+    <ul class="nav-icons">
+      <li><a href="#home" class="nav-icon active" title="Home"><i class="fas fa-home"></i></a></li>
+      <li><a href="#about" class="nav-icon" title="About"><i class="fas fa-user"></i></a></li>
+      <li><a href="#education" class="nav-icon" title="Education"><i class="fas fa-graduation-cap"></i></a></li>
+      <li><a href="#experience" class="nav-icon" title="Experience"><i class="fas fa-briefcase"></i></a></li>
+      <li><a href="#projects" class="nav-icon" title="Projects"><i class="fas fa-code-branch"></i></a></li>
+      <li><a href="#courses" class="nav-icon" title="Courses"><i class="fas fa-book-open"></i></a></li>
+      <li><a href="#skills" class="nav-icon" title="Skills"><i class="fas fa-cogs"></i></a></li>
+      <li><a href="#contact" class="nav-icon" title="Contact"><i class="fas fa-envelope"></i></a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- ===== UPDATED HERO SECTION (dark futuristic) ===== -->
+    <section id="home" class="hero-section">
+      <!-- soft blue radial glow behind text -->
+      <div class="hero-glow"></div>
+
+      <div class="hero-content">
+        <!-- avatar with glowing border -->
+        <div class="hero-avatar">
+          <img src="assets/2.png" alt="Ahmed Hamdy" class="avatar-image">
+        </div>
+
+        <!-- main title -->
+        <h1 class="hero-title">Hi, I'm <span class="highlight">Ahmed Hamdy</span></h1>
+
+        <!-- subtitle with typing animation -->
+        <div class="hero-subtitle">
+          <span class="static-text">I'm a</span>
+          <span class="typed-text" id="typed-text"></span>
+          <span class="cursor">|</span>
+        </div>
+
+        <!-- description -->
+        <p class="hero-description">
+          I'm a Back-End Developer specialized in Laravel and API development, passionate about building clean and
+          efficient web applications.
+        </p>
+
+        <!-- buttons -->
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary"><i class="fas fa-eye"></i> View My Work</a>
+          <a href="assets/Ahmed Hamdy.pdf" class="btn btn-outline" download>
+            <i class="fas fa-download"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION (unchanged) -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title"><span class="neon-text">About Me</span></h2>
+        <div class="about-wrapper">
+          <div class="about-image glass-card fade-up">
+            <div class="about-img-wrapper">
+              <img src="assets/659A0533.jpg" alt="Ahmed Hamdy" class="about-img floating-slow">
+              <div class="glow-ring about-glow-ring"></div>
+            </div>
+          </div>
+          <div class="about-text glass-card fade-up">
+            <p>I am a Back-End Developer graduated from the <strong>Faculty of Computers and Information, Zagazig
+                University</strong>. I have a strong interest in building scalable web applications and developing
+              efficient APIs.</p>
+            <p>I completed a full training program in Back-End development and gained practical experience working with
+              <strong>Laravel, PHP, MySQL, and RESTful APIs</strong>. I also have programming experience with C++ and
+              Python.
+            </p>
+            <p>I enjoy solving problems, writing clean and maintainable code, and continuously improving my technical
+              skills. I am currently looking for my first opportunity as a Back-End Developer where I can contribute to
+              real projects and grow professionally.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION (unchanged) -->
+    <section id="education" class="section">
+      <div class="container">
+        <h2 class="section-title"><span class="neon-text">Education</span></h2>
+        <div class="timeline">
+          <div class="timeline-item glass-card fade-up">
+            <div class="timeline-icon"><i class="fas fa-graduation-cap neon-text"></i></div>
+            <div class="timeline-content">
+              <h3>Bachelor of Computers and Information</h3>
+              <p class="institution">Zagazig University, Egypt</p>
+              <p>Graduated with a Good grade. During my studies, I built a strong foundation in programming, algorithms,
+                and software development.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION (unchanged) -->
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title"><span class="neon-text">Experience</span></h2>
+        <div class="timeline-item glass-card fade-up">
+          <div class="timeline-icon"><i class="fas fa-briefcase neon-text"></i></div>
+          <div class="timeline-content">
+            <h3>Back-End Developer (Projects & Training)</h3>
+            <ul class="exp-list">
+              <li><i class="fas fa-check-circle neon-text"></i> Developed multiple web applications using Laravel and
+                PHP.</li>
+              <li><i class="fas fa-check-circle neon-text"></i> Built RESTful APIs and handled database design using
+                MySQL.</li>
+              <li><i class="fas fa-check-circle neon-text"></i> Implemented authentication systems and MVC architecture.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION (unchanged) -->
+    <section id="skills" class="section skills-section full-vh">
+      <div class="skills-container">
+        <div class="skills-sidebar">
+          <div class="skill-icon-item active"><i class="fab fa-laravel"></i></div>
+          <div class="skill-icon-item"><i class="fab fa-php"></i></div>
+          <div class="skill-icon-item"><i class="fas fa-database"></i></div>
+          <div class="skill-icon-item"><i class="fab fa-git-alt"></i></div>
+          <div class="skill-icon-item"><i class="fas fa-tools"></i></div>
+          <div class="skill-icon-item"><i class="fas fa-code"></i></div>
+        </div>
+
+        <div class="skills-visual">
+          <div class="robotic-hand">
+            <i class="fas fa-robot"></i>
+            <div class="floating-icon icon1"><i class="fab fa-laravel"></i></div>
+          </div>
+        </div>
+
+        <div class="skills-content">
+          <h2 class="skills-title"><span class="light-blue">My</span> <span class="white-bold">Skills</span></h2>
+          <p class="skills-description">With over 3 years of web development experience, I've honed my skills across
+            modern technologies, delivering clean and scalable backend solutions.</p>
+
+          <div class="skill-bars">
+            <div class="skill-bar-item">
+              <div class="skill-bar-header">
+                <i class="fab fa-laravel"></i> <span>Laravel</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-fill-skill" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header">
+                <i class="fab fa-php"></i> <span>PHP</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-fill-skill" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header">
+                <i class="fas fa-database"></i> <span>MySQL</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-fill-skill" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-bar-item">
+              <div class="skill-bar-header">
+                <i class="fab fa-react"></i> <span>React</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="progress-bar-bg">
+                <div class="progress-fill-skill" data-width="90"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION (unchanged) -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title"><span class="neon-text">My Portfolio</span></h2>
+        <div class="projects-grid">
+          <div class="project-card glass-card fade-up">
+            <div class="card-img"><i class="fas fa-car"></i></div>
+            <h3>Car Wash Management System</h3>
+            <p class="tech-tags">Laravel · PHP · MySQL · REST API</p>
+            <p class="project-desc">A web application that allows users to find and book car wash services online.</p>
+            <div class="card-buttons">
+              <a href="#" class="btn-small neon-border"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com/ahmehamdy/Car-Wash-Management-System.git" class="btn-small neon-border"><i
+                  class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-card glass-card fade-up">
+            <div class="card-img"><i class="fas fa-graduation-cap"></i></div>
+            <h3>Course Management System</h3>
+            <p class="tech-tags">Laravel · PHP · MySQL</p>
+            <p class="project-desc">A web application for managing courses, instructors, and students.</p>
+            <div class="card-buttons">
+              <a href="#" class="btn-small neon-border"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="https://github.com/ahmehamdy/educational_system.git" class="btn-small neon-border"><i
+                  class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+          <div class="project-card glass-card fade-up">
+            <div class="card-img"><i class="fas fa-tasks"></i></div>
+            <h3>Task Management System</h3>
+            <p class="tech-tags">Laravel · PHP · MySQL</p>
+            <p class="project-desc">A simple task management application that helps users organize daily tasks.</p>
+            <div class="card-buttons">
+              <a href="#" class="btn-small neon-border"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+              <a href="#" class="btn-small neon-border"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COURSES SECTION (unchanged) -->
+    <section id="courses" class="section">
+      <div class="container">
+        <h2 class="section-title"><span class="neon-text">Courses & Certifications</span></h2>
+        <div class="courses-grid side-by-side">
+          <div class="course-card glass-card fade-up clickable-card" data-course="course1">
+            <i class="fas fa-laptop-code course-icon neon-text"></i>
+            <h3>Back-End Development – Instant</h3>
+            <p>Comprehensive Back-End course with Laravel, PHP, MySQL, REST API.</p>
+            <div class="tech-tags">Laravel · PHP · MySQL · REST API</div>
+            <div class="click-hint"><i class="fas fa-click"></i> Click to view details</div>
+          </div>
+          <div class="course-card glass-card fade-up clickable-card" data-course="course2">
+            <i class="fas fa-layer-group course-icon neon-text"></i>
+            <h3>Full Stack Web Development – NTI</h3>
+            <p>Full Stack program covering front-end and back-end technologies.</p>
+            <div class="tech-tags">HTML · CSS · JavaScript · PHP · MySQL · Laravel</div>
+            <div class="click-hint"><i class="fas fa-click"></i> Click to view details</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION (unchanged) -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title"><span class="neon-text">Contact</span></h2>
+        <div class="contact-wrapper">
+          <div class="contact-info glass-card fade-up">
+            <p><i class="fas fa-envelope neon-text"></i> <a href="mailto:elbayahmed4@mail.com">elbayahmed4@mail.com</a>
+            </p>
+            <p><i class="fas fa-phone-alt neon-text"></i> 01009941601</p>
+            <p><i class="fab fa-github neon-text"></i> <a href="https://github.com/ahmehamdy"
+                target="_blank">github.com/ahmehamdy</a></p>
+            <p><i class="fab fa-linkedin neon-text"></i> <a href="https://www.linkedin.com/in/ahmed-hamdy-8743133a1/"
+                target="_blank">linkedin.com/in/ahmed-hamdy</a></p>
+          </div>
+          <div class="contact-form glass-card fade-up">
+            <form id="contactForm">
+              <input type="text" placeholder="Your Name" class="glass-input" required>
+              <input type="email" placeholder="Email Address" class="glass-input" required>
+              <textarea rows="4" placeholder="Your Message" class="glass-input" required></textarea>
+              <button type="submit" class="btn neon-btn">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Back to Top button -->
+  <a href="#home" class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- FOOTER (unchanged) -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-copyright">© 2026 Ahmed Hamdy</div>
+      <div class="footer-social">
+        <a href="https://github.com/ahmehamdy" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/ahmed-hamdy-8743133a1/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- bottom mobile navbar (unchanged) -->
+  <nav class="bottom-nav">
+    <ul class="bottom-nav-icons">
+      <li><a href="#home" class="nav-icon"><i class="fas fa-home"></i></a></li>
+      <li><a href="#about" class="nav-icon"><i class="fas fa-user"></i></a></li>
+      <li><a href="#education" class="nav-icon"><i class="fas fa-graduation-cap"></i></a></li>
+      <li><a href="#experience" class="nav-icon"><i class="fas fa-briefcase"></i></a></li>
+      <li><a href="#projects" class="nav-icon"><i class="fas fa-code-branch"></i></a></li>
+      <li><a href="#courses" class="nav-icon"><i class="fas fa-book-open"></i></a></li>
+      <li><a href="#skills" class="nav-icon"><i class="fas fa-cogs"></i></a></li>
+      <li><a href="#contact" class="nav-icon"><i class="fas fa-envelope"></i></a></li>
+    </ul>
+  </nav>
+
+  <!-- Modal for course details (unchanged) -->
+  <div id="courseModal" class="modal">
+    <div class="modal-content glass-card">
+      <span class="close-modal">&times;</span>
+      <h3 id="modal-course-title" class="neon-text">Course Details</h3>
+      <div id="modal-images" class="modal-images-grid">
+        <!-- Images will be inserted here dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
